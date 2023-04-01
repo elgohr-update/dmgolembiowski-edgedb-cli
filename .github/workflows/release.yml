@@ -2022,7 +2022,7 @@ jobs:
       uses: docker/setup-buildx-action@v2
 
     - name: Publish Docker Image
-      uses: elgohr/Publish-Docker-Github-Action@742a180fa47f3adfb5115902ae4955acc6ad769b
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: edgedb/edgedb-cli
         username: ${{ secrets.DOCKER_USERNAME }}
